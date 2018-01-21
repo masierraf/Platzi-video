@@ -1,0 +1,36 @@
+.Media {
+    margin-right: 15px;
+    display: inline-block;
+    width: 240px;
+    vertical-align: top;
+    flex-direction: row
+  }
+  
+  .Media:hover .Media-cover {
+    box-shadow: 0 0 10px #000000;
+  }
+  
+  .Media-cover {
+    transition: .3s;
+    box-shadow: 0 0 5px #000000;
+    height: 160px;
+  }
+  
+  .Media-image {
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .Media-title {
+    margin: 5px 0 0 0;
+    color: #44546b;
+    white-space: normal;
+    cursor: pointer;
+  }
+  
+  .Media-author {
+    font-size: 12px;
+    margin: 5px 0 0 0;
+    cursor: pointer;
+  }
+  
