@@ -1,10 +1,4 @@
-# Estructura base de React con Webpack
+# Platzi-Video
 
-Proyecto para iniciar con react y webpack si quebrarte la cabeza con solo entender lo basico de cada una de las tecnologias comprenderas la estructura que este proyecto tiene.
+Proyecto desarrollado en el curso de React js 16 poniendo en practica el ciclo de vida de los componentes, los cambios de estado, el uso de propiedades, la composicion de componentes, componentes heredados y mas...
 
-```
-clone this repo
-cd rutaRepo
-npm install
-
-```
