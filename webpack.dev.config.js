@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    "platzi-video": path.resolve(__dirname, 'src/js/pages/home.js')
+    "platzi-video": path.resolve(__dirname, 'src/js/entries/home.js')
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -11,6 +11,7 @@ module.exports = {
   devServer: {
     port: 9000,
   },
+  devtool: 'eval-source-map',
   module: {
     rules: [
       {

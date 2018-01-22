@@ -14,9 +14,9 @@
   "dependencies": {
     "cheet.js": "^0.3.3",
     "prop-types": "^15.6.0",
-    "react": "^15.4.2",
+    "react": "^16.2.0",
     "react-addons-css-transition-group": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react-dom": "^16.2.0",
     "react-redux": "^5.0.3",
     "redux": "^3.6.0"
   },
