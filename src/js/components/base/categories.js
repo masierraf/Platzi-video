@@ -8,7 +8,7 @@ const Categories = props => {
         <div className="Categories">
             <SearchContainer />
             {props.categories.map(category => {
-                return <Category key={category.id} category={category} />;
+                return <Category key={category.id} category={category} handleOpenModal={props.handleOpenModal} />;
             })}
         </div>
     );

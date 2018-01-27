@@ -30,7 +30,7 @@ class Home extends Component {
                 <Related />
                 <VideoContainer autoplay={false} />
                 <HandleError>
-                    <Categories categories={this.props.data.categories} />
+                    <Categories categories={this.props.data.categories} handleOpenModal={this.handleOpenModal} />
                 </HandleError>
                 {this.state.modalVisible && (
                     <ModalContainer>

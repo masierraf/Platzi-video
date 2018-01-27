@@ -31,6 +31,7 @@ class Media extends PureComponent {
                         className="Media-image"
                         width={240}
                         height={160}
+                        onClick={this.props.handleOpenModal}
                     />
                     <h3 className="Media-title" onClick={this.handleTitleClick}>
                         {this.state.title}
