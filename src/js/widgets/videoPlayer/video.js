@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "../../../css/player/video.css";
 
 class Video extends Component {
-
     setRef = element => {
         this.video = element;
     };
@@ -23,21 +22,23 @@ class Video extends Component {
             handleLoadedMetaData,
             handleTipoUpdate,
             handleSeeking,
-            handleSeeked,
+            handleSeeked
         } = this.props;
         return (
-            <video
-                ref={this.setRef}
-                autoPlay={this.props.autoplay}
-                src={this.props.src}
-                onLoadedMetadata={handleLoadedMetaData}
-                onTimeUpdate={handleTipoUpdate}
-                onSeeking={handleSeeking}
-                onSeeked={handleSeeked}
-            />
+            <div className="Video">
+                <video
+                    ref={this.setRef}
+                    autoPlay={this.props.autoplay}
+                    src={this.props.src}
+                    onLoadedMetadata={handleLoadedMetaData}
+                    onTimeUpdate={handleTipoUpdate}
+                    onSeeking={handleSeeking}
+                    onSeeked={handleSeeked}
+                    volume={this.props.volume}
+                />
+            </div>
         );
     }
-    
 }
 
 export default Video;
